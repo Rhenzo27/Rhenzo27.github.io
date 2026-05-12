@@ -1,74 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RH Turismo</title>
+  <div class="container">
+    <h2 class="section-title">Destinos Populares</h2>
 
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <div class="cards-grid">
 
-  <!-- MENU -->
-  <header class="navbar glass">
-    <div class="container nav-content">
-      <h1 class="logo">RH Turismo</h1>
-
-      <nav>
-        <a href="#">Home</a>
-        <a href="#destinos">Destinos</a>
-        <a href="#experiencias">Experiências</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero hero-gradient">
-    <div class="overlay"></div>
-
-    <div class="hero-content">
-      <h1 class="hero-title">Descubra o mundo com novos olhos</h1>
-
-      <p>
-        Experiências inesquecíveis, destinos paradisíacos e viagens feitas para você.
-      </p>
-
-      <div class="hero-buttons">
-        <button class="primary-btn">Explorar Destinos</button>
-        <button class="secondary-btn">Planejar Viagem</button>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop" alt="Maldivas">
+        <div class="card-content">
+          <h3>Maldivas</h3>
+          <p>Viva experiências únicas em destinos paradisíacos.</p>
+          <button class="pink-btn">Ver Mais</button>
+        </div>
       </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?q=80&w=1200&auto=format&fit=crop" alt="Santorini">
+        <div class="card-content">
+          <h3>Santorini</h3>
+          <p>Descubra paisagens sofisticadas e inesquecíveis.</p>
+          <button class="pink-btn">Ver Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" alt="Fernando de Noronha">
+        <div class="card-content">
+          <h3>Fernando de Noronha</h3>
+          <p>Natureza tropical e águas cristalinas incríveis.</p>
+          <button class="pink-btn">Ver Mais</button>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- DESTINOS -->
-  <section class="section" id="destinos">
-    <div class="container">
-      <h2 class="section-title">Destinos Populares</h2>
+<section class="section dark-section" id="experiencias">
+  <div class="container">
+    <h2 class="section-title">Experiências Exclusivas</h2>
 
-      <div class="cards-grid">
+    <div class="experience-grid">
+      <div class="experience-card glass">✈️ Viagens Internacionais</div>
+      <div class="experience-card glass">🏖️ Resorts Premium</div>
+      <div class="experience-card glass">📸 Passeios Exclusivos</div>
+      <div class="experience-card glass">🧳 Pacotes Personalizados</div>
+    </div>
+  </div>
+</section>
 
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldivas">
-          <div class="card-content">
-            <h3>Maldivas</h3>
-            <p>Viva experiências únicas em destinos paradisíacos.</p>
-            <button class="pink-btn">Ver Mais</button>
-          </div>
-        </div>
+<section class="section" id="galeria">
+  <div class="container">
+    <h2 class="section-title">Momentos Inesquecíveis</h2>
 
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Santorini">
-          <div class="card-content">
-            <h3>Santorini</h3>
-            <p>Descubra paisagens sofisticadas e inesquecíveis.</p>
-            <button class="pink-btn">Ver Mais</button>
-          </div>
-        </div>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1200&auto=format&fit=crop" alt="Praia">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop" alt="Natureza">
+      <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?q=80&w=1200&auto=format&fit=crop" alt="Viagem">
+    </div>
+  </div>
+</section>
 
-        <div class="card">
+<section class="newsletter" id="contato">
+  <div class="newsletter-box glass">
+    <h2>Receba inspirações de viagem</h2>
+
+    <p>Ofertas exclusivas e destinos incríveis direto no seu email.</p>
+
+    <div class="newsletter-form">
+      <input type="email" placeholder="Digite seu email">
+      <button class="primary-btn">Quero Viajar</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>RH Turismo</h3>
+  <p>Transformando viagens em memórias inesquecíveis.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
